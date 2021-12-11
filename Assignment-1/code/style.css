@@ -1,1 +1,56 @@
-
+.yellow {
+    max-height: 35vh;
+}
+.magenta {
+    height: 35vh;
+    background-color: magenta;
+    margin: 5px;
+}
+.b-left, .b-center, .b-right {
+    height: 35vh;
+    background-color: blue;
+    margin: 5px;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .y-left, .y-right {
+        height: 12vh;
+        background-color: yellow;
+        margin: 5px;
+    }
+    .blue > div {
+        height: 15vh;
+        margin: 5px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .yellow {
+        display: flex;
+        flex-direction: row;
+        height: 35vh;
+    }
+    .y-left, .y-right {
+        background-color: yellow;
+        width: 50%;
+        margin: 5px;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .yellow {
+        display: flex;
+        flex-direction: row;
+        height: 35vh;
+    }
+    .y-left, .y-right {
+        background-color: yellow;
+        width: 50%;
+        margin: 5px;
+    }
+    .blue {
+        display: flex;
+        flex-direction: row;
+    }
+    .b-left, .b-center, .b-right {
+        background-color: blue;
+        width: 33.5%;
+    }
+}
