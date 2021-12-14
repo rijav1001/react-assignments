@@ -1,0 +1,30 @@
+.App {
+  display: block;
+  margin-top: 1.5rem;
+  margin-left: 4em;
+}
+
+.proimg {
+  position: relative;
+  border-radius: 5px;
+  width: 20vw;
+  height: 20vw;
+}
+
+.name {
+  color: blue;
+}
+
+.key {
+  font-size: 1rem;
+  color: grey;
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+
+.values {
+  margin-top: 2px;
+  font-size: 1.5rem;
+  color: black;
+  margin-bottom: 5px;
+}
