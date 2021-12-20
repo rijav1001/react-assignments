@@ -13,10 +13,23 @@
 <body>
     <div id="root"></div>
     <script type="text/babel">
-//React Code here
- ReactDOM.render(<div></div>,document.getElementById('root'));
+    //React Code here
+    var yellow = React.createElement("div", {class: "yellow"},
+    React.createElement("div", {class: "y-left"}),
+    React.createElement("div", {class: "y-right"})
+    );
+    var magenta = React.createElement("div", {class: "magenta"});
+    var blue = React.createElement("div", {class: "blue"},
+    React.createElement("div", {class: "b-left"}),
+    React.createElement("div", {class: "b-center"}),
+    React.createElement("div", {class: "b-right"})
+    );
 
-</script>
+    var screen = React.createElement("div", null, yellow, magenta, blue);
+
+    ReactDOM.render(screen, document.getElementById('root'));
+
+    </script>
 <!--
      Note: this page is a great way to try React but it's not suitable for production.
      It slowly compiles JSX with Babel in the browser and uses a large development build of React.
