@@ -1,5 +1,4 @@
 import React, {useState, useEffect} from 'react';
-// import './Postview.css';
 import Postlist from './postlist.js'
 import Header from './header.js'
 
