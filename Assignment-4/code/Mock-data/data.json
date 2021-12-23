@@ -6,7 +6,7 @@
                 "location":"Bengaluru",
                 "likes":64,
                 "description": "Kick start your career",
-                "PostImage": "https://etc.usf.edu/techease/wp-content/uploads/2017/12/daylily-flower-and-buds-sharp.jpg",
+                "PostImage": "./post1.jpg",
                 "date": "86400000"
             },
             {
@@ -14,7 +14,7 @@
                 "location":"Pune",
                 "likes":30,
                 "description": "Sample Description",
-                "PostImage": "https://images.all-free-download.com/images/graphiclarge/beach_coast_holiday_island_landscape_nature_nobody_600768.jpg",
+                "PostImage": "./post2.jpg",
                 "date": "2222222222221"
             },
             {
@@ -22,7 +22,7 @@
                 "location":"Hyderabad",
                 "likes":30,
                 "description": "Sample Description for Post",
-                "PostImage": "https://images.all-free-download.com/images/graphiclarge/flying_airplane_189188.jpg",
+                "PostImage": "./post3.jpg",
                 "date": "233333333321"
             }
         ]
