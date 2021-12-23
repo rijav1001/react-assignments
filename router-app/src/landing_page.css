@@ -1,0 +1,26 @@
+.main-landing {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    margin: 10% 0 5% 0;
+}
+
+.heading {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.heading h2 {
+    margin-bottom: 15%;
+}
+
+.go-to {
+    color: green;
+    font-size: x-large;
+    border: 1px solid green;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10%;
+    padding: 5%;
+}
